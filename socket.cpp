@@ -13,6 +13,7 @@
 #include <thread>
 #define PATH  "file.txt"
 #define BUFF_SIZE   1024
+//this 1st project c++ 
 class Socket{
 public:
   Socket(uint16_t port,const char* ip):m_myip(ip),m_port(port)
