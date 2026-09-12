@@ -1,9 +1,0 @@
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/sudentmanagement.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/edit_cache.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/rebuild_cache.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/list_install_components.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/install.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/install/local.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/install/strip.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/sudentmanagement_autogen_timestamp_deps.dir
-/home/me/linux/QTproject/sudentmanagement/build/Desktop_Debug/CMakeFiles/sudentmanagement_autogen.dir

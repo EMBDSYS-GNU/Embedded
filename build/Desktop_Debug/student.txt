@@ -1,7 +1,0 @@
-name:hadi
-age:33
-math:15
-science:11
-english:13
-result:39
-activities:sport,programing
