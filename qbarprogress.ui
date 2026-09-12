@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>qbarprogress</class>
+ <widget class="QMainWindow" name="qbarprogress">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>254</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QProgressBar" name="myprogressBar">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+    background-color: #F8F8FC;
+    border: 1px solid #E2E1F0;
+    border-radius: 2px;
+    text-align: center;
+    color: #1E1B4B;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 12px;
+    height: 20px;
+}
+QProgressBar::chunk {
+    background-color: #6D28D9;
+    border-radius: 9px;
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connecting_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* default state — all labels start like this */
+QLabel {
+    color: #C7C5E8;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 14px;
+    font-weight: 500;
+}</string>
+    </property>
+    <property name="text">
+     <string>Connecting...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="loading_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>110</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* default state — all labels start like this */
+QLabel {
+    color: #C7C5E8;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 14px;
+    font-weight: 500;
+}</string>
+    </property>
+    <property name="text">
+     <string>Loading students...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="preparing_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>140</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* default state — all labels start like this */
+QLabel {
+    color: #C7C5E8;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 14px;
+    font-weight: 500;
+}</string>
+    </property>
+    <property name="text">
+     <string>Preparing application...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="almost_reading_label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>170</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* default state — all labels start like this */
+QLabel {
+    color: #C7C5E8;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 14px;
+    font-weight: 500;
+}</string>
+    </property>
+    <property name="text">
+     <string>Almost ready...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Complete_label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* default state — all labels start like this */
+QLabel {
+    color: green;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 14px;
+    font-weight: 500;
+}</string>
+    </property>
+    <property name="text">
+     <string>Complete!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="percentage_label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>229</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* default state — all labels start like this */
+QLabel {
+    color: blue;
+    font-family: &quot;Segoe UI&quot;;
+    font-size: 14px;
+    font-weight: 500;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
